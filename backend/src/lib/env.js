@@ -7,6 +7,7 @@ if ((process.env.NODE_ENV === "development")) {
   dns.setServers(["1.1.1.1", "8.8.8.8"]);
 }
 
+
 export const ENV={ 
     PORT:process.env.PORT,
     DB_URL:process.env.DB_URL,
