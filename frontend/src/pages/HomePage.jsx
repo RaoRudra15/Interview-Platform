@@ -96,7 +96,7 @@ const HomePage = () => {
                             <div className="stat-title">Test Users</div>
                         </div>
                         <div className="stat">
-                            <div className="stat-value text-accent">99.9%</div>
+                            <div className="stat-value text-accent">100%</div>
                             <div className="stat-title">Secure Auth</div>
                         </div>
                     </div>
