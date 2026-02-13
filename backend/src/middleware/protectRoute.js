@@ -17,7 +17,7 @@ export const protectRoute=[
             req.user=user;
             next();
         }catch(err){
-            console.error("Error in protectToute middleware", error);
+            console.error("Error in protectToute middleware", err);
             res.status(500).json({message:"Internal Server Error"});
         }
     }
