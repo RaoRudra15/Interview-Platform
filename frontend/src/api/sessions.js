@@ -17,7 +17,7 @@ export const sessionApi={
     },
 
     getSessionById:async(id)=>{
-        const response=await axiosInstance.post(`/sessions/${id}`)
+        const response=await axiosInstance.get(`/sessions/${id}`)
         return response.data
     },
 
@@ -32,7 +32,7 @@ export const sessionApi={
     },
 
     getStreamToken:async()=>{
-        const response=await axiosInstance.post(`/chat/token`)
+        const response=await axiosInstance.get(`/chat/token`)
         return response.data
     },
 }
