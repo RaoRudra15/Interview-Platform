@@ -1,58 +1,56 @@
-SkillBridge
+# 🚀 SkillBridge
 
-This is a full-stack interview practice platform where users can create live coding sessions, join video calls, and collaborate in real time. The goal of this project was to build something close to a real technical interview experience — combining video communication, coding, and session management in one place.
+SkillBridge is a full-stack interview practice platform where users can create live coding sessions, join video calls, and collaborate in real time.  
 
-The project was built as a hands-on learning experience while exploring real-time systems, modern React architecture, and backend API design.
+The goal of this project was to build something close to a real technical interview experience — combining video communication, coding, and session management in one place.
 
-Live Link: https://interview-platform-uzg7.onrender.com/
+This was built as a hands-on learning project while exploring real-time systems, modern React architecture, and backend API design.
 
-What you can do here
+🔗 **Live Link:** https://interview-platform-wt7i.onrender.com
 
-Create and join live interview sessions
+---
 
-Real-time video calls using Stream SDK
+## ✨ What you can do here
 
-Shared coding environment with execution support
+- 🎥 Create and join live interview sessions  
+- 💻 Real-time video calls using Stream SDK  
+- ⚡ Shared coding environment with execution support  
+- 💬 Live chat during sessions  
+- 🔐 Authentication with Clerk  
+- 📊 Dashboard showing active sessions  
+- 🎨 Smooth UI built with TailwindCSS  
 
-Live chat during sessions
+---
 
-Authentication with Clerk
+## 🛠️ Tech Stack
 
-Dashboard showing active sessions
+### Frontend
+- React + Vite
+- TailwindCSS & DaisyUI
+- TanStack Query
+- Monaco Editor
+- Stream Video React SDK
 
-Smooth UI built with TailwindCSS
+### Backend
+- Node.js & Express
+- MongoDB
+- Clerk Authentication
+- Stream Video API
 
-🛠️ Tech Stack
-Frontend
+---
 
-React + Vite
+## 📁 Project Structure
 
-TailwindCSS & DaisyUI
-
-TanStack Query
-
-Monaco Editor
-
-Stream Video React SDK
-
-Backend
-
-Node.js & Express
-
-MongoDB
-
-Clerk Auth
-
-Stream Video API
-
-📁 Project Structure
 Interview-Platform
-├── frontend   → React application
-├── backend    → Express server & APIs
+├── frontend → React application
+├── backend → Express server & APIs
 
-Running Locally
 
-Clone the repo:
+---
+
+## ▶️ Running Locally
+
+Clone the repository:
 
 git clone https://github.com/RaoRudra15/Interview-Platform.git
 
@@ -75,16 +73,25 @@ Run frontend:
 
 npm run dev
 
-Deployment
 
-The app is deployed on Render.
-Frontend is built with Vite and served alongside the backend.
+---
 
-🧠 Why I built this
+## 🚀 Deployment
 
-I wanted to understand how real-time collaboration platforms work — especially the challenges around session lifecycle, video calls, and syncing UI across multiple users. This project helped me explore full-stack architecture beyond basic CRUD apps.
+The app is deployed on Render.  
+The frontend is built with Vite and served alongside the backend.
 
-👨‍💻 Author
+---
 
-Rao Rudra Pratap
+## 🧠 Why I built this
+
+I wanted to understand how real-time collaboration platforms actually work — especially the challenges around session lifecycle, video calls, and syncing UI across multiple users.  
+
+This project helped me explore full-stack architecture beyond basic CRUD applications.
+
+---
+
+## 👨‍💻 Author
+
+**Rao Rudra Pratap**  
 GitHub: https://github.com/RaoRudra15
